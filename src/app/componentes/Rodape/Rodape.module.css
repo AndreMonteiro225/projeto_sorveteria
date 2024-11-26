@@ -1,0 +1,75 @@
+.containerRodape {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 25vh;
+    padding: 2vh 10vw;
+
+}
+.containerRodape img{
+    object-fit: contain;
+    height: 14vh;
+}
+
+.nomeDesenvolvedor {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 2vh 0 2vh 0;
+}
+
+@media (min-width:1024px) and (max-width:1079px){
+
+    .containerRodape {
+        width: 100vw;
+    }
+
+
+    .containerRodape img {
+        display: flex;
+        justify-content: flex-start;
+        padding-right: 10vw;
+    }
+
+    .boxRodape {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 15px;
+        align-items: center;
+        padding: 0vh 2.8vw;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+
+    .containerRodape {
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+        padding: 10vh 0 10vh 0;
+    }
+
+    .boxRodape {
+        margin: 4vh 0 4vh 0;
+    }
+
+}
+@media (min-width:375px) and (max-width:767px){
+
+    .containerRodape {
+        flex-direction: column;
+        height: 100%;
+        font-size: 1.5vh;
+        text-align: center;
+    }
+
+    .boxRodape {
+        margin: 4px 0 4px 0;
+    }
+
+}

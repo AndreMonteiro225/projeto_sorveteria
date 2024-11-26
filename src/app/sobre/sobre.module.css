@@ -1,0 +1,51 @@
+.banner {
+    background-image: url(../../../public/banner-sobre.png);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 5vw;
+    text-shadow: 2px 3px 2px  #474747;
+}
+
+.secaoSobre {
+    margin: 15vh 20vw;
+    text-align: center;
+}
+
+.secaoSobre h3 {
+    font-size: 2vw;
+    margin: 3vh 0vw;
+}
+
+.secaoSobre p {
+    margin: 4vh 0vw;
+}
+
+.span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.secaoFotosSorveteria{
+    display: flex;
+
+}
+
+.containerImage {
+    width: 50%;
+    height: 75vh;
+}
+
+.secaoFotosSorveteria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
